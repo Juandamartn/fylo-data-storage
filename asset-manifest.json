@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Juandamartn/fylo-data-storage/static/css/main.f649e0f1.chunk.css",
+    "main.js": "/Juandamartn/fylo-data-storage/static/js/main.727ca9ff.chunk.js",
+    "main.js.map": "/Juandamartn/fylo-data-storage/static/js/main.727ca9ff.chunk.js.map",
+    "runtime-main.js": "/Juandamartn/fylo-data-storage/static/js/runtime-main.1993ba21.js",
+    "runtime-main.js.map": "/Juandamartn/fylo-data-storage/static/js/runtime-main.1993ba21.js.map",
+    "static/js/2.ee5fa851.chunk.js": "/Juandamartn/fylo-data-storage/static/js/2.ee5fa851.chunk.js",
+    "static/js/2.ee5fa851.chunk.js.map": "/Juandamartn/fylo-data-storage/static/js/2.ee5fa851.chunk.js.map",
+    "index.html": "/Juandamartn/fylo-data-storage/index.html",
+    "static/css/main.f649e0f1.chunk.css.map": "/Juandamartn/fylo-data-storage/static/css/main.f649e0f1.chunk.css.map",
+    "static/js/2.ee5fa851.chunk.js.LICENSE.txt": "/Juandamartn/fylo-data-storage/static/js/2.ee5fa851.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Juandamartn/fylo-data-storage/static/media/bg-mobile.3da1358c.png",
+    "static/media/logo.1117cfab.svg": "/Juandamartn/fylo-data-storage/static/media/logo.1117cfab.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1993ba21.js",
+    "static/js/2.ee5fa851.chunk.js",
+    "static/css/main.f649e0f1.chunk.css",
+    "static/js/main.727ca9ff.chunk.js"
+  ]
+}
