@@ -4,6 +4,8 @@ import Storage from './components/Storage';
 
 import logo from './static/images/logo.svg';
 
+import './static/styles/App.css';
+
 function App() {
   return (
     <div className='App'>

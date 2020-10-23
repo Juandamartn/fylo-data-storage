@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #dddbff;
+}
+
+body {
+  height: 100vh;
+  padding: 2rem;
+  background-color: #0c122c;
+  background-image: url('../images/bg-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  min-width: 264px;
+  background-color: #1d2c67;
+  border-radius: 15px 120px 15px 15px;
+  -webkit-border-radius: 15px 120px 15px 15px;
+  -moz-border-radius: 15px 120px 15px 15px;
+  -ms-border-radius: 15px 120px 15px 15px;
+  -o-border-radius: 15px 120px 15px 15px;
+}
+
+.options__logo {
+  margin-bottom: 2rem;
+}
+
+.options__controls {
+  display: flex;
+}
+
+.options__controls--file,
+.options__controls--folder,
+.options__controls--upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-right: 1rem;
+  background-color: #0c122c;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.options__controls--file,
+.options__controls--folder,
+.options__controls--upload,
+.options__controls--file svg path,
+.options__controls--folder svg path,
+.options__controls--upload svg path {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.options__controls--file:hover,
+.options__controls--folder:hover,
+.options__controls--upload:hover {
+  background-color: #dddbff;
+}
+
+.options__controls--file:hover svg path,
+.options__controls--folder:hover svg path,
+.options__controls--upload:hover svg path {
+  fill: #1d2c67;
+}
+
+@media screen and (min-width: 426px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg-desktop.png');
+    background-size: contain;
+    background-position: center bottom;
+  }
+
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .options {
+    width: 370px;
+    margin-right: 2rem;
+  }
+
+  .storage {
+    width: 500px;
+    height: fit-content;
+  }
+
+  .storage--text {
+    text-align: left;
+  }
+
+  .storage__capacity {
+    margin-bottom: 0px;
+  }
+
+  .storage__indicator {
+    top: -4rem;
+    bottom: unset;
+    left: unset;
+    right: 2rem;
+    border-radius: 10px 10px 0 10px;
+    -webkit-border-radius: 10px 10px 0 10px;
+    -moz-border-radius: 10px 10px 0 10px;
+    -ms-border-radius: 10px 10px 0 10px;
+    -o-border-radius: 10px 10px 0 10px;
+  }
+
+  .storage__indicator--corner {
+    display: block;
+    position: absolute;
+    bottom: -1.5rem;
+    right: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 954px) {
+  .options {
+    margin-bottom: 0;
+  }
+}
